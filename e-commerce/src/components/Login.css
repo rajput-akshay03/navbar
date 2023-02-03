@@ -1,0 +1,49 @@
+.login_div{
+    display: flex;
+    width: 750px; 
+     height: 550px;
+    margin-left: 400px;
+    margin-top: 200px;
+    
+    /* position: relative; */
+}
+.login1stdiv{
+    /* border: 1px solid black;*/
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; 
+        padding-left: 20px;
+        width: 250px;
+        padding-top: 30px;
+        color: white;
+        padding-right: 20px;
+        background-color: rgb(24, 144, 229);
+    }
+    .login2nddiv{
+        /* border: 1px solid black; */
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding-top: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+        background-color: white;
+        width: 350px;
+    }
+    #standard-multiline-flexible{
+        width: 350px;
+    }
+    .otpbutton{
+        width: 350px !important;
+        background-color: rgb(255, 89, 0) !important;
+        color: white !important;
+        height: 50px;
+    }
+    .closeicon{
+      font-size: 30px !important;
+      
+      margin-left: 0px;
+      margin-top: -5px;
+      color:  white;
+    }
+    .closeicon:hover{
+        color: rgb(246, 119, 50);
+    }

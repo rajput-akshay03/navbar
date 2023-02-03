@@ -1,0 +1,61 @@
+.bigdiv{
+    padding-top: opx;
+}
+.main_div{
+      display: flex;
+      /* border: 1px solid BLACK; */
+      background-color:white;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      width: 1348px;
+    }   
+.navbutton{
+        height: 50px !important;
+       margin-left: 80px !important;
+        color: black !important;
+        font-variant: small-caps !important;
+}
+.navbutton:hover{
+    color: green !important;
+}
+.cart{
+    font-size: xx-large !important;
+}
+.navlinks{
+    margin-left: 90px;
+    color: black;
+    text-decoration: none;
+    
+}
+.searcharea{
+    height: 30px;
+    outline: none;
+    width: 300px;
+    margin-left:80px ;
+    margin-right: -30px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+.logo{
+    margin-left: 50px;
+}
+.searchicon{
+    margin-right: 50px;
+}
+.login{
+    display: none !important;
+}
+@media screen and (max-width: 1346px)
+{
+    .navlinks{
+        margin-left: 30px;
+        font-size: larger;
+    }
+    .login_div{
+        width: 200px;
+        border: 2px solid red;
+    }
+}
+    
